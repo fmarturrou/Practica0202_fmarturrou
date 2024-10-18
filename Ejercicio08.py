@@ -1,4 +1,2 @@
-NG313 = input("Dime el precio del producto que quieras con 2 decimales\n")
-NG313F = (NG313 * 100)
-NL273 = round(NG313F, 2)
-print = NL273
+NG313 = (input("Dime el precio del producto que quieras con 2 decimales:\n"))
+print("El precio es de", NG313[:NG313.find(".")], "euros y", NG313[NG313.find(".")+1:], "centimos")
